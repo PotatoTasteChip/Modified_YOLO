@@ -1,0 +1,37 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# COCO8 dataset (first 8 images from COCO train2017) by Ultralytics
+# Documentation: https://docs.ultralytics.com/datasets/detect/coco8/
+# Example usage: yolo train data=coco8.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── coco8  ← downloads here (1 MB)
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+train: /home/vprism1/beaver_ws/dataset/train_data/train/img
+val: /home/vprism1/beaver_ws/dataset/test_data_200/val/images  # val images (relative to 'path') 4 images
+test: # test images (optional)
+
+# Classes
+names:
+  0 : hand
+  1 : Chilsung_Cider
+  2 : Coca_Cola
+  3 : Let's_Be
+  4 : MoGu_MoGu
+  5 : Narand_Cider
+  6 : POCARI_SWEAT
+  7 : POWER_ADE
+  8 : Buldakbokkeummyeon_Keunkeop
+  9 : Carbo_Buldakbokkeummyeon_Keunkeop
+  10 : Doshirak
+  11 : Jinlamyeon_Maeunmat
+  12 : Jjapageti_Keunsabalmyeon
+  13 : Kimchi_Sabalmyeon
+  14 : Neoguri_Keunsabalmyeon
+  15 : Sinlamyeon_Keunsabalmyeon
+  16 : Wangttukkeong
+  17 : Yukgaejang_Sabalmyeon
+  18 : Picnic_Apple
+  19 : Cocopalm
+  20 : POWERO2
