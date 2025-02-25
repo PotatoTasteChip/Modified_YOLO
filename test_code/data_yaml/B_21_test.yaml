@@ -8,8 +8,9 @@
 #     └── coco8  ← downloads here (1 MB)
 
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
-train: /home/vprism_3/beaver_ws/dataset/SVM_DATA/data/train/img
-val: /home/vprism_3/beaver_ws/dataset/test_data_200/val  # val images (relative to 'path') 4 images
+path: /home/vprism_3/beaver_ws/dataset/main_data
+train: train/img
+val: val/img  # val images (relative to 'path') 4 images
 test: # test images (optional)
 
 # Classes
